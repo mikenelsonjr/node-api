@@ -1,0 +1,14 @@
+apiVersion: carto.run/v1alpha1
+kind: Workload
+metadata:
+  name: node-api
+  namespace: default
+  labels:
+    apps.tanzu.vmware.com/workload-type: web
+    app.kubernetes.io/part-of: node-api
+spec:
+  source:
+    git:
+      ref:
+        branch: main
+      url: https://github.com/sample-accelerators/node-api.git
