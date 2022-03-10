@@ -11,4 +11,4 @@ spec:
     git:
       ref:
         branch: main
-      url: https://github.com/sample-accelerators/node-api.git
+      url: https://github.com/mikenelsonjr/node-api.git
