@@ -15,5 +15,7 @@ spec:
   lifecycle: experimental
   owner: default-team
   dependsOn:
-    - "Customer API"
+    - resource:default/customer-db
+  providesApis:
+    - customer-api
   
