@@ -4,7 +4,8 @@ metadata:
   name: node-api
   namespace: default
   labels:
-    apps.tanzu.vmware.com/workload-type: web
+    apps.tanzu.vmware.com/workload-type: web-node
+    apps.tanzu.vmware.com/has-tests: "true"
     app.kubernetes.io/part-of: node-api
 spec:
   source:
